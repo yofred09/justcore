@@ -8,6 +8,7 @@ modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
 displayURL="https://github.com/yofred09/justcore"
+logoFile="justcore-logo.png"
 authors="Yo_Fred"
 description='''
 Server-side shared API and infrastructure for Just Vanish, Just Essentials, and future Just mods.
