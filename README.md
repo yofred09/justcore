@@ -14,9 +14,13 @@ Just Core is the server-side API and shared infrastructure layer for Just Vanish
 
 Just Core 0.1.0 is an early development foundation. Just Vanish does not require it yet, and Just Essentials is not publicly available.
 
+## Documentation
+
+Installation, API concepts, modules, player states, auditing, events, and versioning are maintained in the [Just Core Wiki](https://github.com/yofred09/justcore/wiki).
+
 ## Distribution
 
-Official compiled releases will be distributed exclusively through CurseForge when the API is ready for public use.
+Official compiled releases are distributed through CurseForge and Modrinth. GitHub is used for documentation, issue reporting, security review, and compatibility assessment.
 
 ## License
 
