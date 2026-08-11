@@ -7,4 +7,6 @@ public interface PlayerStateProvider {
     String stateId();
     boolean isActive(ServerPlayer player);
     boolean canView(ServerPlayer viewer, ServerPlayer target);
+    default boolean canSet() { return false; }
+    default void setActive(ServerPlayer player, boolean active) { throw new UnsupportedOperationException("State is read-only: " + stateId()); }
 }

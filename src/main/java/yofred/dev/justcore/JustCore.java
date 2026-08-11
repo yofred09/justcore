@@ -5,5 +5,5 @@ import net.neoforged.fml.common.Mod;
 @Mod(JustCore.MODID)
 public final class JustCore {
     public static final String MODID = "justcore";
-    public static final String API_VERSION = "1";
+    public static final String API_VERSION = "2";
 }

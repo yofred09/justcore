@@ -2,17 +2,17 @@
 
 Just Core is the server-side API and shared infrastructure layer for Just Vanish, Just Essentials, and future Just mods on Minecraft 1.21.1 with NeoForge.
 
-## Initial API
+## API 2
 
 - Stable `JustCoreApi` entry point
 - Companion-module registry
-- Optional player-state providers for features such as vanish
+- Mutable player-state providers for features such as vanish
 - Central append-only audit log at `world/justcore/audit.jsonl`
 - Public `StaffActionEvent`
 - `/justcore info` and `/justcore modules` diagnostics
 - No client installation required
 
-Just Core 0.1.0 is an early development foundation. Just Vanish does not require it yet, and Just Essentials is not publicly available.
+Just Core 0.2.0 is required by Just Vanish 1.3.1+ and Just Essentials 0.3.1+. It keeps shared contracts, module discovery, player states, and staff auditing independent from either feature mod.
 
 ## Documentation
 

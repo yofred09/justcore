@@ -33,6 +33,8 @@ public final class JustCoreApi {
     public static Optional<PlayerStateProvider> playerState(String stateId) { return Optional.ofNullable(PLAYER_STATES.get(stateId)); }
     public static boolean hasState(String stateId, ServerPlayer player) { return playerState(stateId).map(provider -> provider.isActive(player)).orElse(false); }
     public static boolean canViewState(String stateId, ServerPlayer viewer, ServerPlayer target) { return playerState(stateId).map(provider -> provider.canView(viewer, target)).orElse(true); }
+    public static boolean canSetState(String stateId) { return playerState(stateId).map(PlayerStateProvider::canSet).orElse(false); }
+    public static boolean setState(String stateId, ServerPlayer player, boolean active) { Optional<PlayerStateProvider> provider=playerState(stateId); if(provider.isEmpty()||!provider.get().canSet())return false; provider.get().setActive(player,active); return true; }
 
     private JustCoreApi() {}
 }
