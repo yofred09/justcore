@@ -22,6 +22,10 @@ Installation, API concepts, modules, player states, auditing, events, and versio
 
 Official compiled releases are distributed through CurseForge and Modrinth. GitHub is used for documentation, issue reporting, security review, and compatibility assessment.
 
+## Community & Support
+
+Join the [official Discord community](https://discord.gg/R5VnN7Rn5H) for help, discussion and development updates.
+
 ## License
 
 Copyright © 2026 Yo_Fred. All rights reserved. Viewing the source for security review, compatibility assessment, bug reports, and feature suggestions is permitted. Copying, modification, redistribution, derivative works, and commercial reuse are prohibited without written permission. See [LICENSE](LICENSE).

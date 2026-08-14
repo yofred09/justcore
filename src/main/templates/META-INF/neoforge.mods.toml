@@ -12,6 +12,7 @@ logoFile="justcore-logo.png"
 authors="Yo_Fred"
 description='''
 Server-side shared API and infrastructure for Just Vanish, Just Essentials, and future Just mods.
+Community and support: https://discord.gg/R5VnN7Rn5H
 '''
 
 [[dependencies.${mod_id}]]
